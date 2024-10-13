@@ -11,7 +11,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group" >
-                                <x-input-label for="email" :value="__('Email1')" />
+                                <x-input-label for="email" :value="__('Email')" />
                                 <x-text-input id="email" size=40 class="block mt-1 " class="form-control r"  type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
                                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
                             </div> 
